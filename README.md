@@ -19,7 +19,7 @@
     button{padding:8px 12px;border-radius:8px;border:0;background:var(--accent);color:#042034;cursor:pointer;font-weight:600}
     button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
     ul.entries{list-style:none;padding:0;margin-top:16px;display:flex;flex-direction:column;gap:10px;max-height:360px;overflow:auto}
-    li.entry{padding:10px;border-radius:8px;background:rgba(255,255,255,0.015);display:flex;flex-direction:column}
+    li.entry{padding:20px;border-radius:8px;background:rgba(255,255,255,0.015);display:flex;flex-direction:column}
     .time{font-size:12px;color:var(--muted);margin-bottom:6px}
     .empty{color:var(--muted);text-align:center;padding:18px}
     footer{margin-top:14px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;align-items:center}
