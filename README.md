@@ -12,7 +12,7 @@
     .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.6);width:100%;max-width:760px;padding:20px}
     header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
     h1{font-size:20px;margin:0}
-    .date{color:var(--muted);font-size:13px}
+    .date{color:var(--muted);font-size:12px}
     .quote{margin:12px 0;padding:12px;border-radius:8px;background:rgba(255,255,255,0.02);font-size:15px}
     textarea{width:100%;min-height:90px;padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:14px;resize:vertical}
     .controls{display:flex;gap:8px;margin-top:8px}
@@ -35,7 +35,7 @@
         <div class="date" id="today">Loading date...</div>
       </div>
       <div>
-        <button id="clearAll" class="ghost" title="Clear all saved entries">Clear</button>
+        <button id="clearAll" class="ghost" title="Clear all saved entry">Clear</button>
       </div>
     </header>
 
