@@ -10,14 +10,14 @@
     *{box-sizing:border-box}
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,#071124 0%,#071a2a 100%);color:#e6eef6;margin:0;padding:24px;display:flex;align-items:center;justify-content:center;min-height:100vh}
     .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.6);width:100%;max-width:760px;padding:20px}
-    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}
     h1{font-size:20px;margin:0}
     .date{color:var(--muted);font-size:12px}
-    .quote{margin:12px 0;padding:12px;border-radius:8px;background:rgba(255,255,255,0.02);font-size:15px}
+    .quote{margin:12px 0;padding:12px;border-radius:20px;background:rgba(255,255,255,0.02);font-size:15px}
     textarea{width:100%;min-height:90px;padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:14px;resize:vertical}
     .controls{display:flex;gap:8px;margin-top:8px}
     button{padding:8px 12px;border-radius:8px;border:0;background:var(--accent);color:#042034;cursor:pointer;font-weight:600}
-    button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+    button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.07);color:var(--muted)}
     ul.entries{list-style:none;padding:0;margin-top:16px;display:flex;flex-direction:column;gap:10px;max-height:360px;overflow:auto}
     li.entry{padding:20px;border-radius:8px;background:rgba(255,255,255,0.015);display:flex;flex-direction:column}
     .time{font-size:12px;color:var(--muted);margin-bottom:6px}
