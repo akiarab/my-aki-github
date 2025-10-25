@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=2" />
-  <title>Daily Activity — Motivation & Log</title>
+  <title>Create new site for AKI</title>
   <style>
     :root{--bg:#0f1722;--card:#0b1220;--accent:#60a5fa;--muted:#9ca3af;color-scheme:dark}
     *{box-sizing:border-box}
