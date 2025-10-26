@@ -16,12 +16,12 @@
     .quote{margin:12px 0;padding:12px;border-radius:20px;background:rgba(255,255,255,0.02);font-size:15px}
     textarea{width:100%;min-height:90px;padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:14px;resize:vertical}
     .controls{display:flex;gap:8px;margin-top:8px}
-    button{padding:8px 12px;border-radius:8px;border:0;background:var(--accent);color:#042034;cursor:pointer;font-weight:600}
+    button{padding:8px 12px;border-radius:5px;border:0;background:var(--accent);color:#042034;cursor:pointer;font-weight:600}
     button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.07);color:var(--muted)}
     ul.entries{list-style:none;padding:0;margin-top:16px;display:flex;flex-direction:column;gap:10px;max-height:360px;overflow:auto}
     li.entry{padding:20px;border-radius:8px;background:rgba(255,255,255,0.015);display:flex;flex-direction:column}
     .time{font-size:12px;color:var(--muted);margin-bottom:6px}
-    .empty{color:var(--muted);text-align:center;padding:18px}
+    .empty{color:var(--muted);text-align:center;padding:10px}
     footer{margin-top:14px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;align-items:center}
     a.link{color:var(--accent);text-decoration:none}
     @media (max-width:520px){.card{padding:14px}h1{font-size:18px}}
