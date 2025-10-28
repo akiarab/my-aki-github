@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=2" />
   <title>Create new site for AKI</title>
   <style>
-    :root{--bg:#0f1722;--card:#0b1220;--accent:#60a5fa;--muted:#9ca3af;color-scheme:dark}
+    :root{--bg:#0f1722;--card:#0b1220;--accent:#60a5fa;--muted:#9ca3af;color-scheme🌲}
     *{box-sizing:border-box}
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,#071124 0%,#071a2a 100%);color:#e6eef6;margin:0;padding:24px;display:flex;align-items:center;justify-content:center;min-height:100vh}
     .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.6);width:100%;max-width:760px;padding:20px}
