@@ -35,7 +35,7 @@
         <div class="date" id="today">Loading date...</div>
       </div>
       <div>
-        <button id="clearAll" class="ghost" title="Clear all saved entry">Clear</button>
+        <button id="clearAll" class="ghost" title="Clear">Clear</button>
       </div>
     </header>
 
