@@ -159,7 +159,7 @@
         await navigator.clipboard.writeText(md)
         alert('README snippet copied to clipboard. Paste into README.md and commit on GitHub.')
       }catch(e){
-        alert('Copy failed — you can manually copy the snippet.')
+        alert('Copy failed — you cannot manually copy the snippet.')
         console.log(md)
       }
     })
