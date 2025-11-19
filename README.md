@@ -70,7 +70,6 @@
     const addBtn = document.getElementById('add')
     const entriesEl = document.getElementById('entries')
     const emptyEl = document.getElementById('empty')
-    const clearBtn = document.getElementById('clearAll')
     const saveReadmeBtn = document.getElementById('saveReadme')
     const downloadBtn = document.getElementById('download')
 
