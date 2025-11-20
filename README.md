@@ -14,7 +14,7 @@
     h1{font-size:20px;margin:0}
     .date{color:var(--muted);font-size:23px}
     .quote{margin:12px 0;padding:12px;border-radius:20px;background:rgba(255,253,255,0.02);font-size:15px}
-    textarea{width:100%;min-height:90px;padding:12px;border-radius:8px;border:2px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:14px;resize:vertical}
+    textarea{width:100%;min-height:80px;padding:12px;border-radius:8px;border:2px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:14px;resize:vertical}
     .controls{display:flex;gap:8px;margin-top:8px}
     button{padding:8px 12px;border-radius:4px;border:0;background:var(--accent);color:#042034;cursor:pointer;font-weight:600}
     button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.08);color:var(--muted)}
