@@ -20,7 +20,7 @@
     button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.08);color:var(--muted)}
     ul.entries{list-style:none;padding:0;margin-top:16px;display:flex;flex-direction:column;gap:10px;max-height:360px;overflow:auto}
     li.entry{padding:20px;border-radius:30px;background:rgba(255,255,255,0.025);display:flex;flex-direction:column}
-    .time{font-size:12px;color:var(--muted);margin-bottom:7px}
+    .time{font-size:12px;color:var(--muted);margin-bottom:6px}
     .empty{color:var(--muted);text-align:center;padding:10px}
     footer{margin-top:15px;color:var(--muted);font-size:15px;display:flex;justify-content:space-between;align-items:center}
     a.link{color:var(--accent);text-decoration:none}
