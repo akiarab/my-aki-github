@@ -71,7 +71,7 @@
     const entriesEl = document.getElementById('entries')
     const emptyEl = document.getElementById('empty')
     const saveReadmeBtn = document.getElementById('saveReadme')
-    const downloadBtn = document.getElementById('download')
+    //const downloadBtn = document.getElementById('download')
 
     const quotes = [
       "Believe in yourself and all that you are.",
