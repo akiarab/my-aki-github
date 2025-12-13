@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=2" />
-  <title>Hello AKI Good Morning</title>
+  <title>Hello AKI Good Morning SAAM</title>
   <style>
     :root{--bg:#0f1722;--card:#0b1220;--accent:#60a5fa;--muted:#9ca4af;color-scheme🌲}
     *{box-sizing:border-box}
