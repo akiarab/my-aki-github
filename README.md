@@ -14,7 +14,7 @@
     h1{font-size:20px;margin:0}
     .date{color:var(--muted);font-size:13px}
     .quote{margin:13px 0;padding:12px;border-radius:20px;background:rgba(255,253,255,0.01);font-size:10px}
-    textarea{width:100%;min-height:80px;padding🕚px;border-radius:8px;border:2px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:14px;resize:vertical}
+    textarea{width:100%;min-height:80px;padding🕚px;border-radius:8px;border:px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:14px;resize:vertical}
     .controls{display:flex;gap:8px;margin-top:7px}
     button{padding:8px 12px;border-radius:4px;border:0;background:var(--accent);color:#042034;cursor:pointer;font-weight:600}
     button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.08);color:var(--muted)}
@@ -42,7 +42,7 @@
     <section class="quote" id="quote">"Be consistent — little steps every day."</section>
 
     <label for="entry">Write a short note (today's highlight, intention or a quote):</label>
-    <textarea id="entry" placeholder="Type something small you did or plan to do today..."></textarea>
+    <textarea id="entry" placeholder="Type something small you did or plan to 3do today..."></textarea>
 
     <div class="controls">
       <button id="add">Add Entry</button>
