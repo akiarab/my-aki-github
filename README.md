@@ -24,7 +24,7 @@
     .empty{color:var(--muted);text-align:center;padding:10px}
     footer{margin-top:15px;color:var(--muted);font-size:20px;display:flex;justify-content:space-between;align-items:center}
     a.link{color:var(--accent);text-decoration:none}
-    @media (max-width:530px){.card{padding:15px}h1{font-size:12px}}
+    @media (max-width:530px){.card{padding:15px}h1{font-size:13px}}
   </style>
 </head>
 <body>
@@ -52,7 +52,7 @@
     </div>
 
     <ul class="entries" id="entries">
-      <!-- entries appear here -->
+      <!-- entries appear here -->3
     </ul>
 
     <div class="empty" id="empty">No entries yet — add one to keep your GitHub active!</div>
