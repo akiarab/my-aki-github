@@ -168,7 +168,7 @@
     downloadBtn.addEventListener('click', ()=>{
       const blob = new Blob([document.documentElement.outerHTML],{type:'text/html'})
       const url = URL.createObjectURL(blob)
-      const a = document.createElement('a')
+      //const a = document.createElement('a')
       a.href = url; a.download = 'daily-activity.html'
       document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url)
     })
