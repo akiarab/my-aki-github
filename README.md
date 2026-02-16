@@ -10,7 +10,7 @@
     *{box-sizing:border-box}
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,#071124 0%,#071a2a 100%);color:#e6eef6;margin:0;padding:21px;display:flex;align-items:center;justify-content:center;min-height:100vh}
     .card{background:linear-gradient(180deg,rgba(255,255,255,0.01),rgba(255,255,255,0.05));border-radius:11px;box-shadow:0 8px 20px rgba(2,7,23,0.6);width:100%;max-width:770px;padding:20px}
-    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
     h1{font-size:20px;margin:0}
     .date{color:var(--muted);font-size:13px}
     .quote{margin:13px 0;padding:12px;border-radius:20px;background:rgba(255,253,255,0.01);font-size:20px}
