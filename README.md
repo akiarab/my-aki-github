@@ -13,7 +13,7 @@
     header{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
     h1{font-size:20px;margin:0}
     .date{color:var(--muted);font-size:13px}
-    .quote{margin:13px 0;padding:12px;border-radius:20px;background:rgba(255,253,255,0.01);font-size:20px}
+    .quote{margin:13px 0;padding:13px;border-radius:20px;background:rgba(255,253,255,0.01);font-size:20px}
     textarea{width:100%;min-height:82px;padding🕚px;border-radius:9px;border:px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:14px;resize:vertical}
     .controls{display:flex;gap:8px;margin-top:9px}
     button{padding:7px 12px;border-radius:4px;border:0;background:var(--accent);color:#052036;cursor:pointer;font-weight:600}
