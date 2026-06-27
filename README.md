@@ -78,7 +78,7 @@
       "Believe in yourself and all that you are.",
       "Every day is a new beginning.",
       "Dream big, work hard, stay humble.",
-      "Do something today that your future self will thank you for.",
+      "Do something today that your future self will thank you for...",
       "Small progress is still progress."
     ]
 
