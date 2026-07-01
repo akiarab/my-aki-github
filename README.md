@@ -67,7 +67,7 @@
     // Simple single-file daily activity page
     const todayEl = document.getElementById('today')
     const qEl = document.getElementById('quote')
-    const entryEl = document.getElementById('entry')
+    //const entryEl = document.getElementById('entry')
     const addBtn = document.getElementById('add')
     const entriesEl = document.getElementById('entries')
     const emptyEl = document.getElementById('empty')
