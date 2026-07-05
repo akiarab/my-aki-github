@@ -17,14 +17,14 @@
     textarea{width:100%;min-height:82px;padding🕚px;border-radius:9px;border:px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:14px;resize:vertical}
     .controls{display:flex;gap:8px;margin-top:9px}
     button{padding:7px 12px;border-radius:4px;border:0;background:var(--accent);color:#062036;cursor:pointer;font-weight:600}
-    button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.08);color:var(--muted)}
-    ul.entries{list-style:none;padding:0;margin-top:14px;display:flex;flex-direction:column;gap:12px;max-height:350px;overflow:auto}
+    button.ghost{background:transparent;border:2px solid rgba(255,255,255,0.08);color:var(--muted)}
+    ul.entries{list-style:none;padding:0;margin-top:15px;display:flex;flex-direction:column;gap:12px;max-height:350px;overflow:auto}
     li.entry{padding:20px;border-radius:22px;background:rgba(255,255,255,0.026);display:flex;flex-direction:column}
     .time{font-size:12px;color:var(--muted);margin-bottom:6px}
     .empty{color:var(--muted);text-align:center;padding:12px}
     footer{margin-top:17px;color:var(--muted);font-size:20px;display:flex;justify-content:space-between;align-items:center}
     a.link{color:var(--accent);text-decoration:none}
-    @media (max-width:530px){.card{padding:20px}h1{font-size:11px}}
+    @media (max-width:540px){.card{padding:20px}h1{font-size:11px}}
   </style>
 </head>
 <body>
