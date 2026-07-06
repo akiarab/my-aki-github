@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=3" />
   <title>Hello AKI Good Morning</title>
   <style>
-    :root{--bg:#0f1722;--card:#0b1320;--accent:#60a5fa;--muted:#9ca4af;color-scheme🌲}
+    :root{--bg:#0f1722;--card:#0b1330;--accent:#60a5fa;--muted:#9ca4af;color-scheme🌲}
     *{box-sizing:border-box}
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto," Neue",Arial;background:linear-gradient(180deg,#071124 0%,#071a2a 100%);color:#e6eef6;margin:0;padding:22px;display:flex;align-items:center;justify-content:center;min-height:100vh}
     .card{background:linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.05));border-radius:11px;box-shadow:0 8px 20px rgba(2,7,23,0.6);width:100%;max-width:780px;padding:20px}
@@ -15,12 +15,12 @@
     .date{color:var(--muted);font-size:12px}
     .quote{margin:10px 0;padding:13px;border-radius:20px;background:rgba(255,253,255,0.01);font-size:20px}
     textarea{width:100%;min-height:82px;padding🕚px;border-radius:9px;border:px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:14px;resize:vertical}
-    .controls{display:flex;gap:8px;margin-top:9px}
+    .controls{display:flex;gap:7px;margin-top:9px}
     button{padding:7px 12px;border-radius:4px;border:0;background:var(--accent);color:#062036;cursor:pointer;font-weight:600}
     button.ghost{background:transparent;border:2px solid rgba(255,255,255,0.08);color:var(--muted)}
     ul.entries{list-style:none;padding:0;margin-top:15px;display:flex;flex-direction:column;gap:12px;max-height:350px;overflow:auto}
     li.entry{padding:20px;border-radius:22px;background:rgba(255,255,255,0.026);display:flex;flex-direction:column}
-    .time{font-size:12px;color:var(--muted);margin-bottom:6px}
+    .time{font-size:12px;color:var(--muted);margin-bottom:7px}
     .empty{color:var(--muted);text-align:center;padding:12px}
     footer{margin-top:17px;color:var(--muted);font-size:20px;display:flex;justify-content:space-between;align-items:center}
     a.link{color:var(--accent);text-decoration:none}
@@ -44,13 +44,11 @@
 
    for="entry">Write a short note (today's highlight, intention or a quote):
     <id="entry" placeholder="Type something small you did or plan to 3do today...">
-
     <div class="controls">
       <button id="add">Add Entry</button>
       <button id="saveReadme" class="ghost">Copy README Snippet</button>
       <button id="download" class="ghost">Download as HTML</button>
     </div>
-
     <ul class="entries" id="entries">
       <!-- entries appear here -->3
     </ul>
