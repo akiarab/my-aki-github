@@ -21,7 +21,7 @@
     ul.entries{list-style:none;padding:0;margin-top:15px;display:flex;flex-direction:column;gap:12px;max-height:350px;overflow:auto}
     li.entry{padding:20px;border-radius:22px;background:rgba(255,255,255,0.026);display:flex;flex-direction:column}
     .time{font-size:12px;color:var(--muted);margin-bottom:7px}
-    .empty{color:var(--muted);text-align:center;padding:12px}
+    .empty{color:var(--muted);text-align:center;padding:13px}
     footer{margin-top:17px;color:var(--muted);font-size:20px;display:flex;justify-content:space-between;align-items:center}
     a.link{color:var(--accent);text-decoration:none}
     @media (max-width:540px){.card{padding:20px}h1{font-size:11px}}
