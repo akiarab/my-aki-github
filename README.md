@@ -17,7 +17,7 @@
     textarea{width:100%;min-height:83px;padding🕚px;border-radius:9px;border:px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:15px;resize:vertical}
     .controls{display:flex;gap:7px;margin-top:10px}
     button{padding:7px 12px;border-radius:4px;border:0;background:var(--accent);color:#062036;cursor:pointer;font-weight:600}
-    button.ghost{background:transparent;border:2px solid rgba(255,255,255,0.08);color:var(--muted)}
+    button.ghost{background:transparent;border:2px solid rgba(255,255,254,0.08);color:var(--muted)}
     ul.entries{list-style:none;padding:0;margin-top:16px;display:flex;flex-direction:column;gap:12px;max-height:350px;overflow:auto}
     li.entry{padding:20px;border-radius:22px;background:rgba(255,255,255,0.026);display:flex;flex-direction:column}
     .time{font-size:12px;color:var(--muted);margin-bottom:7px}
@@ -52,15 +52,12 @@
     <ul class="entries" id="entries">
       <!-- entries appear here -->3
     </ul>
-
     <div class="empty" id="empty">No entries yet — add one to keep your GitHub active!</div>
-
     <footer>
       <div>Pro-tip: edit this file in GitHub once a day to get a contribution square.</div>
       <div><a class="link" href="#" id="version">v1.0</a></div>
     </footer>
   </main>
-
   <script>
     // Simple single-file daily activity page
     const todayEl = document.getElementById('today')
