@@ -68,7 +68,6 @@
     const emptyEl = document.getElementById('empty')
     const saveReadmeBtn = document.getElementById('saveReadme')
     const downloadBtn = document.getElementById('download')
-
     const quotes = [
       "Believe in yourself and all that you are.",
       "Every day is a new beginning.",
