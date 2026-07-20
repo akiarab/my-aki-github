@@ -19,12 +19,12 @@
     button{padding:7px 12px;border-radius:5px;border:0;background:var(--accent);color:#062036;cursor:pointer;font-weight:600}
     button.ghost{background:transparent;border:2px solid rgba(255,255,254,0.08);color:var(--muted)}
     ul.entries{list-style:none;padding:0;margin-top:15px;display:flex;flex-direction:column;gap:16px;max-height:350px;overflow:auto}
-    li.entry{padding:20px;border-radius:22px;background:rgba(255,255,255,0.026);display:flex;flex-direction:column}
+    li.entry{padding:20px;border-radius:23px;background:rgba(255,255,255,0.026);display:flex;flex-direction:column}
     .time{font-size:12px;color:var(--muted);margin-bottom:4px}
     .empty{color:var(--muted);text-align:center;padding:13px}
     footer{margin-top:13px;color:var(--muted);font-size:20px;display:flex;justify-content:space-between;align-items:center}
     a.link{color:var(--accent);text-decoration:none}
-    @media (max-width:540px){.card{padding:20px}h1{font-size:13px}}
+    @media (max-width:540px){.card{padding:20px}h1{font-size:12px}}
   </style>
 </head>
 <body>
@@ -62,7 +62,7 @@
     // Simple single-file daily activity page
     const todayEl = document.getElementById('today')
     const qEl = document.getElementById('quote')
-    //const entryEl = document.getElementById('entry')
+    const entryEl = document.getElementById('entry')
     const addBtn = document.getElementById('add')
     const entriesEl = document.getElementById('entries')
     const emptyEl = document.getElementById('empty')
@@ -75,16 +75,13 @@
       "Do something today that your future self will thank you for...",
       "Small progress is still progress."
     ]
-
     function formatDate(d){
       const opts = {year:'numeric',month:'short',day:'numeric'}
       return d.toLocaleDateString(undefined,opts)
     }
-
     function nowTime(){
       return new Date().toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'})
     }
-
     // initialize
     const today = new Date()
     todayEl.textContent = formatDate(today)
