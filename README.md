@@ -86,10 +86,8 @@
     const today = new Date()
     todayEl.textContent = formatDate(today)
     qEl.textContent = quotes[Math.floor(Math.random()*quotes.length)]
-
     // storage key per date so you can keep daily logs separate
     const storageKey = 'daily-activity-' + today.toISOString().slice(0,10)
-
     function load(){
       const raw = localStorage.getItem(storageKey)
       const items = raw ? JSON.parse(raw) : []
