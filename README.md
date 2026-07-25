@@ -99,7 +99,6 @@
         items.forEach(it => entriesEl.appendChild(renderEntry(it)))
       }
     }
-
     function renderEntry(item){
       const li = document.createElement('li')
       li.className = 'entry'
