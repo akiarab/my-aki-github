@@ -125,7 +125,6 @@
       entryEl.value = ''
       load()
     })
-
     clearBtn.addEventListener('click', ()=>{
       if(confirm('Clear all entries for today?')){
         localStorage.removeItem(storageKey)
