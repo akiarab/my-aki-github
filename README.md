@@ -111,11 +111,9 @@
       li.appendChild(text)
       return li
     }
-
     function saveItems(items){
       localStorage.setItem(storageKey, JSON.stringify(items))
     }
-
     addBtn.addEventListener('click', ()=>{
       const text = entryEl.value.trim()
       if(!text) return
