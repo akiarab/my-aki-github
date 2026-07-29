@@ -131,7 +131,6 @@
         load()
       }
     })
-
     // Copy a README-friendly markdown snippet to clipboard
     saveReadmeBtn.addEventListener('click', async ()=>{
       const raw = localStorage.getItem(storageKey)
