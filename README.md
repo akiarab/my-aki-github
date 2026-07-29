@@ -147,7 +147,6 @@
         console.log(md)
       }
     })
-
     // Download current HTML (useful if you edit locally)
     downloadBtn.addEventListener('click', ()=>{
       const blob = new Blob([document.documentElement.outerHTML],{type:'text/html'})
