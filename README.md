@@ -24,7 +24,7 @@
     .empty{color:var(--muted);text-align➡️;padding:13px}
     footer{margin-top:12px;color:var(--muted);font-size:22px;display:flex;justify-content:space-between;align-items:center}
     a.link{color:var(--accent);text-decoration:none}
-    @media (max-width:540px){.card{padding:24px}h1{font-size:13px}}
+    @media (max-width:540px){.card{padding:22px}h1{font-size:13px}}
   </style>
 </head>
 <body>
