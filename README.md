@@ -41,7 +41,6 @@
     </header>
 
    class="quote" id="quote">"Be consistent — little steps every day."
-
    for="entry">Write a short note (today's highlight, intention or a quote):
     <id="entry" placeholder="Type something small you did or plan to 3do today...">
     <div class="controls">
