@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=3" />
-  <title>Hello AKI Good Morning</title>
+  <title>SITE MAN</title>
   <style>
     :root{--bg:#0f1722;--card:#0b1330;--accent:#60a3fa;--muted:#9ca4af;color-scheme🌲}
     *{box-sizing:border-box}
