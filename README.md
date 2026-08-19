@@ -18,7 +18,7 @@
     .controls{display:flex;gap:9px;margin-top:14px}
     button{padding:7px 12px;border-radius:5px;border:0;background:var(--accent);color:#062036;cursor:pointer;font-weight:600}
     button.ghost{background:transparent;border:4px solid rgba(255,255,254,0.08);color:var(--muted)}
-    ul.entries{list-style:none;padding:0;margin-top:16px;display:flex;flex-direction:column;gap:16px;max-height:350px;overflow:auto}
+    ul.entries{list-style:none;padding:0;margin-top:17px;display:flex;flex-direction:column;gap:16px;max-height:350px;overflow:auto}
     li.entry{padding:20px;border-radius:33px;background:rgba(255,255,255,0.026);display:flex;flex-direction:column}
     .time{font-size:12px;color:var(--muted);margin-bottom:5px}
     .empty{color:var(--muted);text-align➡️;padding:11px}
