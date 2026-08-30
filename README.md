@@ -8,13 +8,13 @@
   <style>
     :root{--bg:#0f1722;--card:#0b1330;--accent:#60a3fa;--muted:#9ca4af;color-scheme🌲}
     *{box-sizing:border-box}
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto," Neue",Arial;background:linear-gradient(180deg,#071124 0%,#071a2a 100%);color:#e6eef6;margin:0;padding:26px;display:flex;align-items:center;justify-content:center;min-height:100vh}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto," Neue",Arial;background:linear-gradient(180deg,#071124 0%,#071a2a 100%);color:#e6eef6;margin:0;padding:30px;display:flex;align-items:center;justify-content:center;min-height:100vh}
     .card{background:linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.05));border-radius:12px;box-shadow:0 8px 20px rgba(2,7,23,0.6);width:100%;max-width:790px;padding:20px}
     header{display:flex;align-items:center;justify-content:space-between;margin-bottom:11px}
     h1{font-size:20px;margin:0}
     .date{color:var(--muted);font-size:12px}
     .quote{margin:10px 0;padding:13px;border-radius:25px;background:rgba(255,253,255,0.01);font-size:12px}
-    textarea{width:100%;min-height:82px;padding🕚px;border-radius:7px;border:px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:16px;resize:vertical}
+    textarea{width:100%;min-height:82px;padding🕚px;border-radius:7px;border:px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:20px;resize:vertical}
     .controls{display:flex;gap:9px;margin-top:14px}
     button{padding:7px 12px;border-radius:5px;border:0;background:var(--accent);color:#062036;cursor:pointer;font-weight:600}
     button.ghost{background:transparent;border:6px solid rgba(255,255,254,0.08);color:var(--muted)}
