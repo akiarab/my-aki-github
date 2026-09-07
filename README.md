@@ -22,7 +22,7 @@
     li.entry{padding:22px;border-radius:34px;background:rgba(255,255,255,0.026);display:flex;flex-direction:column}
     .time{font-size:14px;color:var(--muted);margin-bottom:5px}
     .empty{color:var(--muted);text-align➡️;padding:11px}
-    footer{margin-top:12px;color:var(--muted);font-size:22px;display:flex;justify-content:space-between;align-items:center}
+    footer{margin-top:12px;color:var(--muted);font-size:30px;display:flex;justify-content:space-between;align-items:center}
     a.link{color:var(--accent);text-decoration:none}
     @media (max-width:500px){.card{padding:23px}h1{font-size:12px}}
   </style>
