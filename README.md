@@ -36,7 +36,7 @@
       </div>
       <div>
         <button id="clearAll" class="ghost" title="Clear">Clear</button>
-          <button id="clearAll" class="ghost" title="Clear">click</button>
+         <!-- <button id="clearAll" class="ghost" title="Clear">click</button>-->
       </div>
     </header>
 
