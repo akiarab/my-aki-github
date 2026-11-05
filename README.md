@@ -16,7 +16,7 @@
     .quote{margin:20px 0;padding:15px;border-radius:35px;background:rgba(255,253,255,0.01);font-size:12px}
     textarea{width:100%;min-height:82px;padding🕚px;border-radius:12px;border:px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:22px;resize:vertical}
     .controls{display:flex;gap:10px;margin-top:15px}
-    button{padding:7px 12px;border-radius:5px;border:0;background:var(--accent);color:#062036;cursor:pointer;font-weight:600}
+    button{padding:7px 10px;border-radius:5px;border:0;background:var(--accent);color:#062036;cursor:pointer;font-weight:600}
     button.ghost{background:transparent;border:10px solid rgba(255,255,254,0.08);color:var(--muted)}
     ul.entries{list-style:none;padding:0;margin-top:30px;display:flex;flex-direction:column;gap:16px;max-height:350px;overflow:auto}
     li.entry{padding:22px;border-radius:34px;background:rgba(255,255,255,0.026);display:flex;flex-direction:column}
